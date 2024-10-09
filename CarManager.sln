@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Service.Customer.API", "CarManager.Service.Customer.API\CarManager.Service.Customer.API.csproj", "{8E08AA55-41CB-463F-8692-88E79F5C9C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Common.Domain", "CarManager.Common.Domain\CarManager.Common.Domain.csproj", "{64A81B2E-E3A6-450C-A607-E6B0DDBDF520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Service.Order.API", "CarManager.Service.Order.API\CarManager.Service.Order.API.csproj", "{74A46111-BAE1-4641-9012-3B2074DE0680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Service.Vehicle.API", "CarManager.Service.Vehicle.API\CarManager.Service.Vehicle.API.csproj", "{87A2C4BD-5BC6-4D21-8F2C-61DD2F397636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E08AA55-41CB-463F-8692-88E79F5C9C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E08AA55-41CB-463F-8692-88E79F5C9C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E08AA55-41CB-463F-8692-88E79F5C9C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E08AA55-41CB-463F-8692-88E79F5C9C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A81B2E-E3A6-450C-A607-E6B0DDBDF520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A81B2E-E3A6-450C-A607-E6B0DDBDF520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A81B2E-E3A6-450C-A607-E6B0DDBDF520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A81B2E-E3A6-450C-A607-E6B0DDBDF520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A46111-BAE1-4641-9012-3B2074DE0680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A46111-BAE1-4641-9012-3B2074DE0680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A46111-BAE1-4641-9012-3B2074DE0680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A46111-BAE1-4641-9012-3B2074DE0680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A2C4BD-5BC6-4D21-8F2C-61DD2F397636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A2C4BD-5BC6-4D21-8F2C-61DD2F397636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A2C4BD-5BC6-4D21-8F2C-61DD2F397636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A2C4BD-5BC6-4D21-8F2C-61DD2F397636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
