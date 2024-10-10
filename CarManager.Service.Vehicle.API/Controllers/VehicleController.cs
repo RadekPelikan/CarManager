@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.Extensions;
 using CarManager.Domain;
 using CarManager.Domain.Response;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.Extensions;
 
 namespace CarManager.API.Controllers;
 
 [Route("[controller]")]
+// [DisableCors]
 public class CustomersController : Controller
 {
     private readonly ILogger<CustomersController> _logger;

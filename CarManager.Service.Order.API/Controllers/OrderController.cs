@@ -1,5 +1,6 @@
 using CarManager.Domain;
 using CarManager.Domain.Response;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,7 +32,7 @@ public class CustomersController : Controller
     {
         var path = HttpContext.Request.GetEncodedUrl().Split("/").Last();
         throw new NotImplementedException($"{nameof(CreateCustomer)} not implemented on endpoint: [ /{path} ]");
-    }    
+    }
     
     [HttpDelete("")] // query
     [ProducesResponseType<ResponseMessage>(200)]

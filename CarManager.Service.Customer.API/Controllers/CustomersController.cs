@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.Extensions;
 using CarManager.Domain;
 using CarManager.Domain.Response;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace CarManager.API.Controllers;
 
@@ -22,8 +24,10 @@ public class CustomersController : Controller
     [ProducesResponseType<ResponseMessage>(204)]
     public ActionResult<ICollection<Customer>> GetCustomers()
     {
-        var path = HttpContext.Request.GetEncodedUrl().Split("/").Last();
-        throw new NotImplementedException($"{nameof(GetCustomers)} not implemented on endpoint: [ /{path} ]");
+        // var path = HttpContext.Request.GetEncodedUrl().Split("/").Last();
+        // throw new NotImplementedException($"{nameof(GetCustomers)} not implemented on endpoint: [ /{path} ]");
+        
+        return Ok(new List<Customer>());
     }
     
     [HttpPost("")]
